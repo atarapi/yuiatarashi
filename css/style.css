@@ -602,11 +602,11 @@ ol.publication-list li:before{
   padding-bottom:0.2em;
 }
 
-.sub h3{
+.carrer-subtitle{
   font-size: 20px;
   padding-top:50px;
   padding-bottom:20px;
-  padding-right: 90%;
+  /* padding-right: 60%; */
   /* background-color: red; */
 }
 
@@ -657,3 +657,58 @@ ol.publication-list li:before{
 .star5_rating[data-rate="1"]:after{ width: 20%; } /* 星1 */
 .star5_rating[data-rate="0.5"]:after{ width: 10%; } /* 星0.5 */
 .star5_rating[data-rate="0"]:after{ width: 0%; } /* 星0 */
+
+@media screen and (max-width:480px) {
+ 
+  .mv {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 85vh;
+    text-align: center;
+    background-image:url("../img/icont_t.png");
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position:100% 100%;
+    /* background-size: cover; */
+  }
+
+  
+.mv-container {
+  padding: 0 10px;
+  /* background-color: blue; */
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 75%;
+}
+
+.mv-title {
+  font-size: 2.0em;
+  font-weight: bold;
+  line-height: 1.2;
+  margin-bottom: 5px;
+  letter-spacing: .1em;
+  margin-left: 0%;
+}
+.mv-subtitle {
+  font-size: 0.8em;
+  font-weight: bold;
+  line-height: 1;
+  margin-bottom: 40px;
+  letter-spacing: .08em;
+}
+
+.mv-text {
+  font-size: 1em;
+  line-height: 1.4;
+}
+  
+
+.gnav{
+  margin-right: 0%; 
+}
+.gnav-item a {
+  font-size: 5px;
+}
+ 
+}
