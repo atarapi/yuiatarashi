@@ -148,7 +148,7 @@ img {
   background-image:url("../img/icont_t.png");
   background-size: 50%;
   background-repeat: no-repeat;
-  background-position:100% 50%;
+  background-position:100% 100%;
   /* background-size: cover; */
 }
 
@@ -667,7 +667,7 @@ ol.publication-list li:before{
     height: 85vh;
     text-align: center;
     background-image:url("../img/icont_t.png");
-    background-size: 100%;
+    background-size: 80%;
     background-repeat: no-repeat;
     background-position:100% 100%;
     /* background-size: cover; */
