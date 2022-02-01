@@ -667,7 +667,7 @@ ol.publication-list li:before{
     height: 85vh;
     text-align: center;
     background-image:url("../img/icont_t.png");
-    background-size: 80%;
+    background-size: 70%;
     background-repeat: no-repeat;
     background-position:100% 100%;
     /* background-size: cover; */
@@ -708,7 +708,8 @@ ol.publication-list li:before{
   margin-right: 0%; 
 }
 .gnav-item a {
-  font-size: 5px;
+  font-size: 10px;
+  background-color: red;
 }
  
 }
