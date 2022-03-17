@@ -265,15 +265,17 @@ img {
   margin: 0 auto;
 }
 .profile-img {
-  width: 20%;
-  margin-right: 30px;
+  width: 30%;
+  margin-right: 90px;
   border-radius: 50%;
 }
 .profile-img img {
-  border-radius: 50%;
+  border-radius: 10%;
 }
 .profile-body {
   flex: 1;
+  /* background-color: red; */
+  margin-top: 40px;
 }
 
 .profile-body p {
